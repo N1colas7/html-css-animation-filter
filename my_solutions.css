@@ -34,7 +34,44 @@
 .ex-6-img:hover{
     filter: grayscale(1);
 }
-
-
-
-
+.ex-7-img {
+    transition: 2s;
+}
+.ex-7-img:hover {
+    filter: grayscale(1);
+    filter: blur(5px);
+}
+.ex-8-img{
+    transition: 2s;
+}
+.ex-8-img:hover{
+    border-radius: 20%;
+    filter: blur(3px) grayscale(1);
+}
+.ex-9-img{
+    transition: 2s;
+}
+.ex-9-img:hover{
+    border-radius: 20%;
+    filter: blur(3px) grayscale(1);
+    transform: scale(0.5);
+}
+.ex-10-icon{
+    animation: spin 2s linear infinite;
+  
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.ex-11-icon:hover{
+     animation: spin2 2s linear 1;
+}
+@keyframes spin2{
+    0%   {transform: rotate(0 deg); 
+    }
+    90% {transform: rotate(360deg); 
+    }
+    100% {transform: rotate(0 deg)
+    }
+  }
