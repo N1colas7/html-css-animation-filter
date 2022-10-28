@@ -103,4 +103,33 @@
         right: 20%;
     }
 }
+.ex-13-button:hover .ex-13-top-white {
+    animation: top-white2 2s linear;
+}
+@keyframes top-white2{
+    0% {
+        top: -10px;
+        left: 10%;
+    }
+    20% {
+        top: -10px;
+        left: 85%;
+    }
+    40% {
+        top: 60px;
+        left: 85%;
+    }
+    60% {
+        top: 60px;
+        left: -15%;
+    }
+    80% {
+        top: -10px;
+        left: -15%;
+    }
+    100%{
+        top: -10px;
+        left : 10%;
+    }
 
+}
