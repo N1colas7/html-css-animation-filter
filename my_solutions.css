@@ -133,3 +133,32 @@
     }
 
 }
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: bottom-white2 2s linear;
+}
+@keyframes bottom-white2{
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+    20% {
+        bottom: -10px;
+        right: 90%;
+    }
+    40% {
+        bottom: 48px;
+        right: 90%;
+    }
+    60% {
+        bottom: 48px;
+        right: -12%;
+    }
+    80% {
+        bottom: -4px;
+        right: -14%;
+    }
+    100%{
+        bottom: -10px;
+        right: 20%;
+    }
+}    
